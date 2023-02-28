@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("Testing pipelines scm~~");
+        System.out.println("Testing pipelines scm~~one more time");
     }
 
     public String getMessage() {
