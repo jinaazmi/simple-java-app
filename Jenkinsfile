@@ -19,8 +19,14 @@ pipeline {
       steps {
         sh 'mvn test'            
       }
-    }    
-    
+    }
+        
+     stage('Dummy') {
+      steps {
+        sh 'Dummmmyyy'            
+      }
+    }
+       
     stage('Deploy') {
       steps {
         sh 'java -jar target/my-app-1.0-SNAPSHOT.jar'
