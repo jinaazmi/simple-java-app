@@ -21,7 +21,7 @@ pipeline {
       }
     }
         
-     stage('Dummy') {
+    stage('Dummy') {
       steps {
         sh 'Dummmmyyy'            
       }
